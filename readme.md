@@ -15,3 +15,7 @@ selectable(el)
 ```
 
 It affects any known method to disable selection on an element: `user-select: none`, `user-drag: none`, `touch-callout: none`, `unselectable="on"` attribute, prevent `selectstart` event.
+
+## Credits
+
+© 2017 Dima Yv. MIT License
