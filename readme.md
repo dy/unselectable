@@ -1,4 +1,4 @@
-# unselectable [![unstable](https://img.shields.io/badge/stability-unstable-orange.svg)](http://github.com/badges/stability-badges)
+# unselectable [![unstable](https://img.shields.io/badge/stability-unstable-green.svg)](http://github.com/badges/stability-badges)
 
 Make sure element is unselectable.
 
@@ -13,3 +13,5 @@ let selectable = unselectable(el)
 //reset element selectable behaviour
 selectable(el)
 ```
+
+It affects any known method to disable selection on an element: `user-select: none`, `user-drag: none`, `touch-callout: none`, `unselectable="on"` attribute, prevent `selectstart` event.
